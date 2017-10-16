@@ -1,0 +1,15 @@
+nav {
+    font-family: $font-heading;
+    font-weight: 300;
+    
+}
+ul li .nav-item {
+    color: $nav-color;
+}
+img:first-child {
+    width: $size-logo;
+}
+.btn {
+    border-radius: $borderad-btn;
+    text-transform: uppercase;
+}

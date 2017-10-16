@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACA,WAAW,ECMM,wBAAwB;EDLzC,WAAW,EAAE,GAAG;;AAGpB,eAAgB;EACZ,KAAK,ECEY,OAAO;;ADA5B,eAAgB;EACZ,KAAK,ECJY,KAAK;;ADM1B,IAAK;EACD,aAAa,ECNI,IAAI;EDOrB,cAAc,EAAE,SAAS",
+"sources": ["../sass/kelas/_layout.scss","../sass/kelas/_variable.scss"],
+"names": [],
+"file": "style.css"
+}
