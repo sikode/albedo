@@ -12,55 +12,58 @@ header {
     background-size: cover;
     font-family: $font-heading;
 }
-header a.nav-link {
-    color: $default-color;
-    font-weight: 300;
-    font-size: 16px;
-}
-header a.nav-link:focus {
-    color: #8799A3;
-}
-header .rounded {
-    border-radius: 2rem!important;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color: $yellow-gold;
-    border-color: $yellow-gold;
-    box-shadow: 1px 2px 5px $yellow-gold;
-}
-header h2:first-child {
-    font-family: $font-heading2;
-}
-header h1 {
-    font-weight: 900;
-    font-size: 45px;
-}
-header h1 span {
-    color: #0081FF;
-}
-header h2:nth-child(3) {
-    font-weight: 300;
-}
-header h1, h2 {
-    color: $default-color;
-}
-header p {
-    color: #636363;
-    font-size: 18px;
-}
-header .container:nth-child(2) {
-    padding-top: 15rem;
-    padding-bottom: 12rem;
-}
-header .btn-dark {
-    text-transform: uppercase;
-    font-size: .8rem;
-    font-weight: 500;
-    padding: 15px 30px;
-    border-radius: 2rem;
-    background-color: #252525;
-    border-color: #252525;
-    box-shadow: 1px 2px 5px #000000;
+
+header {
+    a.nav-link {
+        color: $default-color;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    a.nav-link:focus {
+        color: #8799A3;
+    }
+    .rounded {
+        border-radius: 2rem!important;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: $yellow-gold;
+        border-color: $yellow-gold;
+        box-shadow: 1px 2px 5px $yellow-gold;
+    }
+    h2:first-child {
+        font-family: $font-heading2;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 45px;
+    }
+    h1 span {
+        color: #0081FF;
+    }
+    h2:nth-child(3) {
+        font-weight: 300;
+    }
+    h1, h2 {
+        color: $default-color;
+    }
+    p {
+        color: #636363;
+        font-size: 18px;
+    }
+    .container:nth-child(2) {
+        padding-top: 15rem;
+        padding-bottom: 12rem;
+    }
+    .btn-dark {
+        text-transform: uppercase;
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 15px 30px;
+        border-radius: 2rem;
+        background-color: #252525;
+        border-color: #252525;
+        box-shadow: 1px 2px 5px #000000;
+    }
 }
