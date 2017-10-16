@@ -6,11 +6,13 @@ header {
   font-family: "Montserrat", sans-serif; }
 
 header a.nav-link {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   font-weight: 300;
   font-size: 16px; }
+header .navbar-dark .navbar-nav .active > .nav-link,
+header a.nav-link:hover,
 header a.nav-link:focus {
-  color: #8799A3; }
+  color: #8799A3 !important; }
 header .rounded {
   border-radius: 2rem !important;
   text-transform: uppercase;
@@ -19,7 +21,7 @@ header .rounded {
   padding-right: 2rem;
   color: #FFFF00;
   border-color: #FFFF00;
-  box-shadow: 1px 2px 5px #FFFF00; }
+  box-shadow: 1px 2px 5px rgba(255, 255, 0, 0.753); }
 header h2:first-child {
   font-family: "Leckerli One", cursive; }
 header h1 {
@@ -29,7 +31,8 @@ header h1 span {
   color: #0081FF; }
 header h2:nth-child(3) {
   font-weight: 300; }
-header h1, header h2 {
+header h1,
+header h2 {
   color: #FFFFFF; }
 header p {
   color: #636363;

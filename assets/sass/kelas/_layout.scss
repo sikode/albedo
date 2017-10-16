@@ -15,12 +15,14 @@ header {
 
 header {
     a.nav-link {
-        color: $default-color;
+        color: $default-color!important;
         font-weight: 300;
         font-size: 16px;
     }
-    a.nav-link:focus {
-        color: #8799A3;
+    .navbar-dark .navbar-nav .active>.nav-link,
+    a.nav-link:hover,
+    a.nav-link:focus, {
+        color: #8799A3!important;
     }
     .rounded {
         border-radius: 2rem!important;
@@ -30,7 +32,8 @@ header {
         padding-right: 2rem;
         color: $yellow-gold;
         border-color: $yellow-gold;
-        box-shadow: 1px 2px 5px $yellow-gold;
+        box-shadow: 1px 2px 5px rgba(255, 255, 0, 0.753);
+
     }
     h2:first-child {
         font-family: $font-heading2;
@@ -45,7 +48,8 @@ header {
     h2:nth-child(3) {
         font-weight: 300;
     }
-    h1, h2 {
+    h1,
+    h2 {
         color: $default-color;
     }
     p {
