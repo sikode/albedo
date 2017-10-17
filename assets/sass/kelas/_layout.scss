@@ -79,6 +79,10 @@ header {
     padding-top: 100px;
     padding-bottom: 20px;
 }
+#bluesky-end {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
 .blues-bg {
     background-color: $blues;
     padding-top: 70px;
@@ -96,6 +100,7 @@ section{
         font-family: $font-heading;
         font-weight: 700;
         font-size: 41px;
+        line-height: 2.9rem;
     }
     p {
         font-family: $font-content;
@@ -103,16 +108,26 @@ section{
     }
 
     img {
-        width: 50px;
-        height: 48px;
+        width: 58px;
+        height: 57px;
     }
-    .media-body h5 {
+    .media-body h4 {
         text-transform: capitalize;
         font-family: $font-heading;
-        font-weight: 600;
-        line-height: 28px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 20px;
     }
     .mr-45 {
         margin-right: 2rem!important;
+    }
+
+    #social-link a {
+        color: $icon-color;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    #social-link a .active {
+        color: $default-color;
     }
 }
