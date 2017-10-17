@@ -11,6 +11,8 @@ header {
     background-position-y: -70px;
     background-size: cover;
     font-family: $font-heading;
+    height: 100%;
+    min-height: 882px;
 }
 
 header {
@@ -58,7 +60,6 @@ header {
     }
     .container:nth-child(2) {
         padding-top: 15rem;
-        padding-bottom: 13rem;
     }
     .btn-dark {
         text-transform: uppercase;
