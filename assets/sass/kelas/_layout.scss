@@ -71,3 +71,44 @@ header {
         box-shadow: 1px 2px 5px #000000;
     }
 }
+
+.bluesky-bg {
+    background-color: $bluesky;
+}
+#bluesky-start {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.blues-bg {
+    background-color: $blues;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+section{
+    h1,h2,p, .media-body {
+        color: $default-color;
+    }
+    h2 {
+        font-family: $font-heading2;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        font-family: $font-heading;
+        font-weight: 900;
+    }
+    p {
+        font-family: $font-content;
+        font-size: 18px;
+    }
+
+    img {
+        width: 50px;
+        height: 48px;
+    }
+    .media-body h5 {
+        text-transform: capitalize;
+        font-family: $font-heading;
+        font-weight: 600;
+        line-height: 28px;
+    }
+}
