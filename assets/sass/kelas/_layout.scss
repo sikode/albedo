@@ -127,7 +127,8 @@ section{
         padding: 0 10px;
         font-size: 20px;
     }
-    #social-link a .active {
+    #social-link a .active, #social-link a:hover {
         color: $default-color;
     }
+    
 }
