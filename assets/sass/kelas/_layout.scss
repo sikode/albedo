@@ -91,6 +91,7 @@ header {
 section{
     h1,h2,p, .media-body {
         color: $default-color;
+        letter-spacing: 0.5px;
     }
     h2 {
         font-family: $font-heading2;

@@ -67,7 +67,8 @@ header .btn-dark {
   padding-bottom: 40px; }
 
 section h1, section h2, section p, section .media-body {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  letter-spacing: 0.5px; }
 section h2 {
   font-family: "Leckerli One", cursive;
   margin-bottom: 2rem; }
