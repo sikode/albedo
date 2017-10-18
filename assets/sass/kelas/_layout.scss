@@ -1,3 +1,21 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    letter-spacing: $setengah-space;
+}
+p {
+    font-size: $font-paragraf;
+}
+.btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 header {
     background: 
       /* top, transparent red */ 
@@ -12,13 +30,12 @@ header {
     font-family: $font-heading;
     height: 100%;
     min-height: 882px;
-    letter-spacing: 0.5px;
 }
 
 header {
     a.nav-link {
         color: $default-color!important;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 16px;
     }
     .navbar-dark .navbar-nav .active>.nav-link,
@@ -27,11 +44,9 @@ header {
         color: #8799A3!important;
     }
     .rounded {
+        @extend .btn;
         border-radius: 2rem!important;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 600;
-        padding: .8rem 2.5rem;
+        padding: .7rem 2.5rem;
         color: $yellow-gold;
         border: 2px solid $yellow-gold;
         box-shadow: 0px 10px 30px 0px rgba(255, 255, 0, 0.35);
@@ -55,16 +70,13 @@ header {
     }
     p {
         color: #636363;
-        font-size: 18px;
     }
     .container:nth-child(2) {
         padding-top: 15rem;
     }
     .btn-dark {
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 1.5rem 3rem;
+        @extend .btn;
+        padding: 1.4rem 3rem;
         border-radius: 2rem;
         background-color: #252525;
         border-color: #252525;
@@ -88,10 +100,10 @@ header {
     padding-top: 70px;
     padding-bottom: 40px;
 }
+
 section{
     h1,h2,p, .media-body {
         color: $default-color;
-        letter-spacing: 0.5px;
     }
     h2 {
         font-family: $font-heading2;
@@ -105,7 +117,6 @@ section{
     }
     p {
         font-family: $font-content;
-        font-size: 18px;
     }
 
     img {
