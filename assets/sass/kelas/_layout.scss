@@ -12,6 +12,7 @@ header {
     font-family: $font-heading;
     height: 100%;
     min-height: 882px;
+    letter-spacing: 0.5px;
 }
 
 header {
@@ -29,12 +30,11 @@ header {
         border-radius: 2rem!important;
         text-transform: uppercase;
         font-size: 16px;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        font-weight: 600;
+        padding: .8rem 2.5rem;
         color: $yellow-gold;
-        border-color: $yellow-gold;
-        box-shadow: 1px 2px 5px rgba(255, 255, 0, 0.753);
-
+        border: 2px solid $yellow-gold;
+        box-shadow: 0px 10px 30px 0px rgba(255, 255, 0, 0.35);
     }
     h2:first-child {
         font-family: $font-heading2;
@@ -62,13 +62,13 @@ header {
     }
     .btn-dark {
         text-transform: uppercase;
-        font-size: .8rem;
-        font-weight: 500;
-        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 1.5rem 3rem;
         border-radius: 2rem;
         background-color: #252525;
         border-color: #252525;
-        box-shadow: 1px 2px 5px #000000;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
     }
 }
 
@@ -132,4 +132,5 @@ section{
         color: $default-color;
     }
     
+
 }
