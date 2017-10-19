@@ -11,22 +11,25 @@ p {
     font-size: $font-paragraf;
 }
 .btn {
+    font-family: $font-heading;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
+    border-radius: 2rem!important;
 }
 
 header {
     background: 
       /* top, transparent red */ 
       linear-gradient(
-        rgba(24, 24, 24, 0.45), 
-        rgba(24, 24, 24, 0.45)
+        rgba(37, 37, 37, 0.6), 
+        rgba(37, 37, 37, 0.6)
       ),
       /* bottom, image */
       url('../../assets/image/bg-header.jpg');
-    background-position-x: -300px;
+    background-position-x: -115px;
     background-position-y: -130px;
+    background-size: 2250px;
     font-family: $font-heading;
     height: 100%;
     min-height: 882px;
@@ -43,10 +46,9 @@ header {
     a.nav-link:focus, {
         color: #8799A3!important;
     }
-    .rounded {
+    .btn-outline-warning {
         @extend .btn;
-        border-radius: 2rem!important;
-        padding: .7rem 2.5rem;
+        padding: .5rem 2.2rem;
         color: $yellow-gold;
         border: 2px solid $yellow-gold;
         box-shadow: 0px 10px 30px 0px rgba(255, 255, 0, 0.35);
@@ -76,8 +78,7 @@ header {
     }
     .btn-dark {
         @extend .btn;
-        padding: 1.4rem 3rem;
-        border-radius: 2rem;
+        padding: 1.2rem 2.2rem;
         background-color: #252525;
         border-color: #252525;
         box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
@@ -89,7 +90,7 @@ header {
 }
 #bluesky-start {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 #bluesky-end {
     padding-top: 70px;
@@ -99,6 +100,14 @@ header {
     background-color: $blues;
     padding-top: 70px;
     padding-bottom: 40px;
+}
+.blues-bg img {
+    width: 58px;
+    height: 57px;
+}
+#white-bg {
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 section{
@@ -119,10 +128,7 @@ section{
         font-family: $font-content;
     }
 
-    img {
-        width: 58px;
-        height: 57px;
-    }
+    
     .media-body h4 {
         text-transform: capitalize;
         font-family: $font-heading;
@@ -142,6 +148,34 @@ section{
     #social-link a .active, #social-link a:hover {
         color: $default-color;
     }
-    
 
+    .btn-info {
+        @extend .btn;
+        padding: 1.2rem 3rem;
+        background-color: #1CBBB3;
+        border-color: #1CBBB3;
+        box-shadow: 0px 10px 30px 0px rgba(28, 187, 176, 0.4);
+    }
 }
+
+#white-bg h2 {
+    color: #8799A3;
+}
+#white-bg h1 {
+    color: #252525;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+#gallery .col-lg-6,
+.col-lg-3 {
+    overflow: hidden;
+}
+#gallery img {
+    transform: scale(2);
+}
+#gallery .custom-height img {
+    height: 54.6%;
+}
+
+

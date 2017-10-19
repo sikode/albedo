@@ -10,15 +10,18 @@ p {
 p {
   font-size: 18px; }
 
-.btn, header .rounded, header .btn-dark {
+.btn, header .btn-outline-warning, header .btn-dark, section .btn-info {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 600; }
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 2rem !important; }
 
 header {
-  background: linear-gradient(rgba(24, 24, 24, 0.45), rgba(24, 24, 24, 0.45)), url("../../assets/image/bg-header.jpg");
-  background-position-x: -300px;
+  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(37, 37, 37, 0.6)), url("../../assets/image/bg-header.jpg");
+  background-position-x: -115px;
   background-position-y: -130px;
+  background-size: 2250px;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   min-height: 882px; }
@@ -31,9 +34,8 @@ header .navbar-dark .navbar-nav .active > .nav-link,
 header a.nav-link:hover,
 header a.nav-link:focus {
   color: #8799A3 !important; }
-header .rounded {
-  border-radius: 2rem !important;
-  padding: .7rem 2.5rem;
+header .btn-outline-warning {
+  padding: .5rem 2.2rem;
   color: #FFFF00;
   border: 2px solid #FFFF00;
   box-shadow: 0px 10px 30px 0px rgba(255, 255, 0, 0.35); }
@@ -54,8 +56,7 @@ header p {
 header .container:nth-child(2) {
   padding-top: 15rem; }
 header .btn-dark {
-  padding: 1.4rem 3rem;
-  border-radius: 2rem;
+  padding: 1.2rem 2.2rem;
   background-color: #252525;
   border-color: #252525;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4); }
@@ -65,7 +66,7 @@ header .btn-dark {
 
 #bluesky-start {
   padding-top: 100px;
-  padding-bottom: 20px; }
+  padding-bottom: 35px; }
 
 #bluesky-end {
   padding-top: 70px;
@@ -75,6 +76,14 @@ header .btn-dark {
   background-color: #007af3;
   padding-top: 70px;
   padding-bottom: 40px; }
+
+.blues-bg img {
+  width: 58px;
+  height: 57px; }
+
+#white-bg {
+  padding-top: 100px;
+  padding-bottom: 70px; }
 
 section h1, section h2, section p, section .media-body {
   color: #FFFFFF; }
@@ -88,9 +97,6 @@ section h1 {
   line-height: 2.9rem; }
 section p {
   font-family: "Cambay", sans-serif; }
-section img {
-  width: 58px;
-  height: 57px; }
 section .media-body h4 {
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
@@ -105,5 +111,28 @@ section #social-link a {
   font-size: 20px; }
 section #social-link a .active, section #social-link a:hover {
   color: #FFFFFF; }
+section .btn-info {
+  padding: 1.2rem 3rem;
+  background-color: #1CBBB3;
+  border-color: #1CBBB3;
+  box-shadow: 0px 10px 30px 0px rgba(28, 187, 176, 0.4); }
+
+#white-bg h2 {
+  color: #8799A3; }
+
+#white-bg h1 {
+  color: #252525;
+  text-transform: capitalize;
+  font-weight: 800; }
+
+#gallery .col-lg-6,
+.col-lg-3 {
+  overflow: hidden; }
+
+#gallery img {
+  transform: scale(2); }
+
+#gallery .custom-height img {
+  height: 54.6%; }
 
 /*# sourceMappingURL=style.css.map */
