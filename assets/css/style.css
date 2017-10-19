@@ -125,14 +125,19 @@ section .btn-info {
   text-transform: capitalize;
   font-weight: 800; }
 
-#gallery .col-lg-6,
-.col-lg-3 {
+#gallery .col-lg-6, #gallery .col-lg-3 {
   overflow: hidden; }
-
-#gallery img {
-  transform: scale(2); }
-
-#gallery .custom-height img {
-  height: 450px; }
+#gallery .hgtree {
+  height: 225px; }
+#gallery .hgone {
+  min-height: 405px; }
+  #gallery .hgone img {
+    transform: scale(1.8); }
+#gallery .ts-2 {
+  transform: scale(2.9); }
+#gallery .ts-1, #gallery .ts-3 {
+  transform: scale(1.5); }
+#gallery .ts-4 {
+  transform: scale(2.6); }
 
 /*# sourceMappingURL=style.css.map */
