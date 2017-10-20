@@ -88,8 +88,7 @@ header .btn-dark {
 section h1, section h2, section p, section .media-body {
   color: #FFFFFF; }
 section h2 {
-  font-family: "Leckerli One", cursive;
-  margin-bottom: 2rem; }
+  font-family: "Leckerli One", cursive; }
 section h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
