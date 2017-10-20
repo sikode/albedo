@@ -177,7 +177,7 @@ section{
 div#colone {
 	.col-lg-12>img {
         width: 100%;
-    	object-fit: cover;
+    	// object-fit: cover;
 	}
 	.col-lg-6>img {
 		width: 100%;
@@ -217,8 +217,8 @@ div#coltwo {
 }
 
 #overlay {
-	background-color: rgba(37, 37, 37, 0.6);
-    padding: 100px 0px;
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 3rem 0;
     opacity: 0;
     h4 {
 		color: #8698a2;
