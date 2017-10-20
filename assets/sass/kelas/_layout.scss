@@ -170,7 +170,7 @@ section{
 
 #image1, #image3, #image4, #image5, #image6, {
     max-height: 350px;
-    object-fit: cover;
+    // object-fit: cover;
     overflow: hidden;
 }
 
@@ -181,15 +181,19 @@ div#colone {
 	}
 	.col-lg-6>img {
 		width: 100%;
-		height: 250px;
+		height: 230px;
     	object-fit: cover;
     }
     #image1>img{
-        transform: scale(1.2);
+        transform: scale(1.6);
+        height: 350px;
     }
 	#image3>img {
-        transform: scale(3.5);
-        margin-left: 95px;
+        width: 100%;
+        height: 230px;
+        transform: scale(3.2);
+        margin-left: 90px;
+        margin-top: -25px;
 	}
 	#image5>img {
 		transform: scale(1.6);
@@ -198,7 +202,7 @@ div#colone {
 
 div#coltwo {
 	.col-lg-12>img {
-		height: 600px;
+		height: 580px;
 		width: 100%;
     	object-fit: cover;
 	}
@@ -206,30 +210,34 @@ div#coltwo {
 
 .coltre {
 	.col-lg-12>img {
-		height: 250px;
+		height: 230px;
 		width: 100%;
     	object-fit: cover;
     }
     #image4>img {
-        height: 350px!important;
+        height: 400px;
+        width: 100%;
+        transform: scale(1);
+        margin-top: -30px;
     }
 }
 
 #overlay {
-    background-color: rgba(26, 26, 26, 0.8);
-    padding: 4rem 0;
+    background-color: rgba(14, 20, 29, 0.8);
+    padding: 4rem;
     opacity: 0;
     h4 {
 		color: #8698a2;
         font-size: 14px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 15px;
         font-weight: 700;
+        font-family: $font-heading;
         a {
             padding: 0 6px;
             img {
-                width: 22px;
+                width: 20px;
             }
         }
     }
@@ -237,61 +245,64 @@ div#coltwo {
         opacity: 1;
         transition: 1.5s ease;
     }
-
-    // .active {
-    //     @extend #overlay;
-    //     visibility: visible;
-    // }
+}
+#overlay.overlay-active {
+    opacity: 1;
 }
 
 #bgclient {
-    background: 
-    /* top, transparent red */ 
-    linear-gradient(
-       rgba(37, 37, 37, 0.6), 
-       rgba(37, 37, 37, 0.6)
-    ),
-    /* bottom, image */
-    url('../../assets/image/bg-client.jpg');
-    background-position-x: -701px;
-    background-position-y: -219px;
-    background-size: 2800px;
+    background: url('../../assets/image/bg-client.jpg');
+    background-repeat: no-repeat;
+    background-position-x: -1500px;
+    background-position-y: -800px;
     text-align: center;
-    padding-top: 190px;
-    padding-bottom: 190px;
+    .highlight {
+        padding: 190px 0px;
+        background-color: rgba(37, 37, 37, 0.767);
+    }
     #carouselExampleIndicators {
-        margin-bottom: 80px;
+        margin-bottom: 90px;
     }
     p {
         font-family: $font-content2;
+        font-size: 20px;
     }
     h1 {
         text-transform: capitalize;
+        margin-bottom: 4.5rem;
+        font-weight: 900;
     }
     .img-fluid {
         width: 70%;
     }
     .carousel-inner {
-        width: 60%;
+        width: 56%;
     }
     .carousel-control-next, .carousel-control-prev {
         width: 5%;
     }
+    .fa-quote-left {
+        position: absolute;
+        font-size: 2.5rem;
+        color: #373737;
+        top: 82%;
+        left: 48%;
+    }
     .media {
         img {
-            width: 65px;
-            height: 65px;
+            width: 50px;
+            height: 50px;
             object-fit: cover;
         }
         h5 {
             color: #FFFF00;
             font-weight: 600;
-            font-size: 17px;
+            font-size: 15px;
         }
         span {
             p {
-                font-size: 16px;
-                font-weight: 500;
+                font-size: 14px;
+                font-weight: 600;
                 color: #737373;
                 font-family: $font-content;
             }
