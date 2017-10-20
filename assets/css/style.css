@@ -202,6 +202,8 @@ div#coltwo .col-lg-12 > img {
     text-transform: capitalize;
     margin-bottom: 4.5rem;
     font-weight: 900; }
+  #bgclient h2 {
+    margin-bottom: 1.5rem; }
   #bgclient .img-fluid {
     width: 70%; }
   #bgclient .carousel-inner {
