@@ -140,8 +140,7 @@ div#colone #image1 > img {
   transform: scale(1.2); }
 div#colone #image3 > img {
   transform: scale(3.5);
-  position: absolute;
-  left: 90px; }
+  margin-left: 95px; }
 div#colone #image5 > img {
   transform: scale(1.6); }
 
@@ -159,7 +158,7 @@ div#coltwo .col-lg-12 > img {
 
 #overlay {
   background-color: rgba(26, 26, 26, 0.8);
-  padding: 3rem 0;
+  padding: 4rem 0;
   opacity: 0; }
   #overlay h4 {
     color: #8698a2;
@@ -167,8 +166,52 @@ div#coltwo .col-lg-12 > img {
   #overlay p {
     font-size: 20px;
     font-weight: 700; }
+    #overlay p a {
+      padding: 0 6px; }
+      #overlay p a img {
+        width: 22px; }
   #overlay:hover {
     opacity: 1;
     transition: 1.5s ease; }
+
+#bgclient {
+  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(37, 37, 37, 0.6)), url("../../assets/image/bg-client.jpg");
+  background-position-x: -701px;
+  background-position-y: -219px;
+  background-size: 2800px;
+  text-align: center;
+  padding-top: 190px;
+  padding-bottom: 190px; }
+  #bgclient #carouselExampleIndicators {
+    margin-bottom: 80px; }
+  #bgclient p {
+    font-family: "Coustard", serif; }
+  #bgclient h1 {
+    text-transform: capitalize; }
+  #bgclient .img-fluid {
+    width: 70%; }
+  #bgclient .carousel-inner {
+    width: 60%; }
+  #bgclient .carousel-control-next, #bgclient .carousel-control-prev {
+    width: 5%; }
+  #bgclient .media img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover; }
+  #bgclient .media h5 {
+    color: #FFFF00;
+    font-weight: 600;
+    font-size: 17px; }
+  #bgclient .media span p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #737373;
+    font-family: "Cambay", sans-serif; }
+  #bgclient .media h5, #bgclient .media p {
+    text-transform: capitalize;
+    text-align: left;
+    font-family: "Montserrat", sans-serif; }
+  #bgclient a span img {
+    width: 15px; }
 
 /*# sourceMappingURL=style.css.map */

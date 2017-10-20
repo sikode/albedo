@@ -189,8 +189,7 @@ div#colone {
     }
 	#image3>img {
         transform: scale(3.5);
-        position: absolute;
-        left: 90px;
+        margin-left: 95px;
 	}
 	#image5>img {
 		transform: scale(1.6);
@@ -218,47 +217,99 @@ div#coltwo {
 
 #overlay {
     background-color: rgba(26, 26, 26, 0.8);
-    padding: 3rem 0;
+    padding: 4rem 0;
     opacity: 0;
     h4 {
 		color: #8698a2;
-		font-size: 14px;
+        font-size: 14px;
 	}
 	p {
 		font-size: 20px;
-		font-weight: 700;
+        font-weight: 700;
+        a {
+            padding: 0 6px;
+            img {
+                width: 22px;
+            }
+        }
     }
     &:hover {
         opacity: 1;
         transition: 1.5s ease;
     }
+
+    // .active {
+    //     @extend #overlay;
+    //     visibility: visible;
+    // }
 }
 
-// #gallery {
-//     .col-lg-6, .col-lg-3 {
-//         overflow: hidden;
-//     }
-//     .hgtree {
-//         height: 225px;
-//     }
-//     .hgone {
-//         min-height: 405px;
-//         img {
-//             transform: scale(1.8);
-//         }
-//     }
-//     .ts-2 {
-//         transform: scale(2.9);
-//     }
-//     .ts-1, .ts-3 {
-//         transform: scale(1.5);
-//     }
-//     .ts-4 {
-//         transform: scaleX(1.7);
-//         height: 630px;
-//     }
-// }
-
+#bgclient {
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+       rgba(37, 37, 37, 0.6), 
+       rgba(37, 37, 37, 0.6)
+    ),
+    /* bottom, image */
+    url('../../assets/image/bg-client.jpg');
+    background-position-x: -701px;
+    background-position-y: -219px;
+    background-size: 2800px;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    #carouselExampleIndicators {
+        margin-bottom: 80px;
+    }
+    p {
+        font-family: $font-content2;
+    }
+    h1 {
+        text-transform: capitalize;
+    }
+    .img-fluid {
+        width: 70%;
+    }
+    .carousel-inner {
+        width: 60%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+    .media {
+        img {
+            width: 65px;
+            height: 65px;
+            object-fit: cover;
+        }
+        h5 {
+            color: #FFFF00;
+            font-weight: 600;
+            font-size: 17px;
+        }
+        span {
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                color: #737373;
+                font-family: $font-content;
+            }
+        }
+        h5, p {
+            text-transform: capitalize;
+            text-align: left;
+            font-family: $font-heading;
+        }
+    }
+    a {
+        span {
+            img {
+                width: 15px;
+            }
+        }
+    }
+}
 
 
 
