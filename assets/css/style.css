@@ -235,4 +235,38 @@ div#coltwo .col-lg-12 > img {
   #bgclient a span img {
     width: 15px; }
 
+#blog {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #blog .col-lg-6 {
+    max-width: 49%; }
+  #blog .colke1 {
+    margin-right: 2%; }
+    #blog .colke1 h2 {
+      color: #8799A3; }
+    #blog .colke1 h1 {
+      color: #252525;
+      font-size: 2.2rem;
+      font-weight: 800; }
+    #blog .colke1 p {
+      color: #636363;
+      font-size: 20px; }
+    #blog .colke1 div:nth-child(2) {
+      background-color: #007EF9;
+      color: #FFFFFF;
+      padding: 2rem 5rem;
+      text-align: center; }
+      #blog .colke1 div:nth-child(2) span h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        font-weight: 700; }
+      #blog .colke1 div:nth-child(2) blockquote {
+        font-family: "Coustard", serif;
+        font-size: 23px; }
+      #blog .colke1 div:nth-child(2) span p {
+        font-size: 17px;
+        color: #FCFA2F; }
+  #blog .colke2 {
+    background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(37, 37, 37, 0.6)), url("../../assets/image/blog-1.png"); }
+
 /*# sourceMappingURL=style.css.map */

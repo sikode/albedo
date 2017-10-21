@@ -127,7 +127,6 @@ section{
         font-family: $font-content;
     }
 
-    
     .media-body h4 {
         text-transform: capitalize;
         font-family: $font-heading;
@@ -165,7 +164,6 @@ section{
     text-transform: capitalize;
     font-weight: 800;
 }
-
 
 #image1, #image3, #image4, #image5, #image6, {
     max-height: 350px;
@@ -324,6 +322,64 @@ div#coltwo {
     }
 }
 
+#blog {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .col-lg-6 {
+        // custom
+        max-width: 49%;
+    }
+    .colke1{
+        // custom
+        margin-right: 2%;
+        h2 {
+            color: #8799A3;
+        }
+        h1 {
+            color: #252525;
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        p {
+            color: #636363;
+            font-size: 20px;
+        }
+        div:nth-child(2) {
+            background-color: #007EF9;
+            color: $default-color;
+            padding: 2rem 5rem;
+            text-align: center;
+            span {
+                h4 {
+                    font-family: $font-heading;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+            blockquote {
+                font-family: $font-content2;
+                font-size: 23px;
+            }
+            span {
+                p {
+                    font-size: 17px;
+                    color: #FCFA2F;
+                }
+            }
+        }
+    }
+    .colke2 {
+        background: 
+        /* top, transparent red */ 
+        linear-gradient(
+          rgba(37, 37, 37, 0.6), 
+          rgba(37, 37, 37, 0.6)
+        ),
+        /* bottom, image */
+        url('../../assets/image/blog-1.png');
+    }
+    
+}
 
 
 
