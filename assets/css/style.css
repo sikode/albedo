@@ -267,6 +267,29 @@ div#coltwo .col-lg-12 > img {
         font-size: 17px;
         color: #FCFA2F; }
   #blog .colke2 {
-    background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(37, 37, 37, 0.6)), url("../../assets/image/blog-1.png"); }
+    background: url("../../assets/image/blog-1.png");
+    background-size: cover;
+    background-size: 950px;
+    background-position-x: 78px;
+    background-position-y: -40px;
+    padding: 8rem 6.5rem 0; }
+    #blog .colke2 h3 {
+      font-family: "Montserrat", sans-serif;
+      color: #BBC7CD;
+      font-size: 17px;
+      font-weight: 800; }
+    #blog .colke2 h1 {
+      font-size: 30px;
+      font-weight: 800;
+      text-transform: capitalize; }
+    #blog .colke2 p {
+      font-size: 19px; }
+    #blog .colke2 .btn-warning {
+      background-color: #FCFA2F;
+      border-color: #FCFA2F;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 0.9rem 2.4rem;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
