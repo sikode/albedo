@@ -325,21 +325,7 @@ div#coltwo {
 #blog {
     padding-top: 100px;
     padding-bottom: 100px;
-    .colke {
-        // custom
-        max-width: 49%;
-    }
-    @media screen and (max-width: 992px) {
-        .colke1 {
-            margin-right: 0!important;
-        }
-        .colke {
-            max-width: 100%;
-        }
-    }
     .colke1{
-        // custom
-        margin-right: 1%;
         h2 {
             color: #8799A3;
         }
@@ -348,12 +334,16 @@ div#coltwo {
             font-size: 2.2rem;
             font-weight: 800;
         }
+        h1, p {
+            width: 66%;
+        }
         p {
             color: #636363;
             font-size: 20px;
         }
         div:nth-child(2) {
             background-color: #007EF9;
+            box-shadow: 0px 0px 68px 1px rgba(0, 204, 255, 0.3);
             color: $default-color;
             padding: 2rem 5rem;
             text-align: center;
@@ -368,21 +358,15 @@ div#coltwo {
                 font-family: $font-content2;
                 font-size: 23px;
             }
-            span {
-                p {
-                    font-size: 17px;
-                    color: #FCFA2F;
-                }
+            .quoter {
+                font-size: 17px;
+                font-family: $font-content;
+                color: #FCFA2F;
             }
         }
     }
     .colke2 {
-        background: url('../../assets/image/blog-1.png');
-        background-size: cover;
-        background-size: 950px;
-        background-position-x: 78px;
-        background-position-y: -40px;
-        padding: 11% 9.2% 0;
+        overflow: hidden;
         h3 {
             font-family: $font-heading;
             color: #BBC7CD;
@@ -405,8 +389,46 @@ div#coltwo {
             padding: 0.9rem 2.4rem;
             text-transform: uppercase;
         }
+        img {
+            height: 485px;
+            width: 1063px;
+            object-fit: cover;
+        }
+        .hidden {
+            overflow: hidden;
+            position: relative;
+        }
+        .absolut {
+            position: absolute;
+            top: 30%;
+            left: 19%;
+            width: 57%;
+        }
     }
     
+    .colke3 {
+        overflow: hidden;
+        div {
+            overflow: hidden;
+            max-height: 250px;
+            img {
+                height: 260px;
+                width: 255px;
+                object-fit: cover;
+            }
+        }
+    }
+    .colke5 {
+        background-color: #E91E62;
+        span {
+            width: 66%;
+            font-family: $font-content;
+            font-weight: 800;
+            color: $default-color;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
 }
 
 
