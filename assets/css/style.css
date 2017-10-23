@@ -308,7 +308,7 @@ div#coltwo .col-lg-12 > img {
         width: 255px;
         object-fit: cover;
         position: relative; }
-      @media screen and (min-width: 991px) {
+      @media screen and (max-width: 991px) {
         #blog .colke3 .lebar-img img {
           width: 330px; } }
     #blog .colke3 .colke3-1 {
@@ -325,7 +325,9 @@ div#coltwo .col-lg-12 > img {
       #blog .colke3 #colke3-01 .date {
         color: #FFFFFF; }
   #blog .colke5 {
-    background-color: #E91E62; }
+    background-color: #E91E62;
+    width: 100%;
+    height: 100%; }
     #blog .colke5 span {
       width: 66%;
       font-family: "Montserrat", sans-serif;
@@ -347,5 +349,55 @@ div#coltwo .col-lg-12 > img {
     line-height: 2rem; }
   #blog p.silver {
     color: #636363; }
+
+footer {
+  background: linear-gradient(rgba(31, 30, 30, 0.8), rgba(31, 30, 30, 0.8)), url("../../assets/image/bg-contact.jpg");
+  background-size: 3000px;
+  background-position-x: -635px;
+  background-position-y: -190px;
+  padding-top: 200px;
+  color: #FFFFFF; }
+  footer h2 {
+    font-family: "Leckerli One", cursive; }
+  footer h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-bottom: 40px; }
+  footer p, footer input {
+    font-family: "Cambay", sans-serif; }
+  footer .abu {
+    color: #636363; }
+  footer .email {
+    color: #007EFA; }
+  footer .link a {
+    padding: 0 5px;
+    color: #636363; }
+    footer .link a .active, footer .link a:hover, footer .link a:focus {
+      color: #8595a2; }
+  footer .form-control {
+    background-color: #272727;
+    border-radius: 2rem;
+    border: 2px solid #8595a2;
+    padding: 13px 30px 7px;
+    color: #fff; }
+  footer .col-12 .form-control {
+    height: 150px; }
+  footer .btn-primary {
+    border: none;
+    padding: 0px 50px;
+    margin-top: 5px;
+    line-height: 50px;
+    background-color: #007af2;
+    box-shadow: 0px 10px 30px 0px rgba(22, 92, 254, 0.24); }
+  footer .withpad {
+    padding-bottom: 150px; }
+
+#founder {
+  background-color: rgba(37, 37, 37, 0.55);
+  padding: 50px; }
+  #founder .silver {
+    color: #8799A3; }
+  #founder .putih {
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */
