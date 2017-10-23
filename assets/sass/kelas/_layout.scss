@@ -325,6 +325,11 @@ div#coltwo {
 #blog {
     padding-top: 100px;
     padding-bottom: 100px;
+    @media screen and (max-width: 991px) {
+        .colkepad {
+            padding-bottom: 5vh;
+        }
+    }
     .colke1{
         h2 {
             color: #8799A3;

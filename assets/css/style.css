@@ -238,6 +238,9 @@ div#coltwo .col-lg-12 > img {
 #blog {
   padding-top: 100px;
   padding-bottom: 100px; }
+  @media screen and (max-width: 991px) {
+    #blog .colkepad {
+      padding-bottom: 5vh; } }
   #blog .colke1 h2 {
     color: #8799A3; }
   #blog .colke1 h1 {
