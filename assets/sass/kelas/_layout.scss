@@ -411,11 +411,15 @@ div#coltwo {
         .lebar-img {
             overflow: hidden;
             max-height: 250px;
+            background-color: rgba(0, 0, 0, 0.4);
             img {
                 height: 260px;
                 width: 255px;
                 object-fit: cover;
                 position: relative;
+            }
+            .img-z {
+                z-index: -1;
             }
             @media screen and (max-width: 991px) {
                 img {
@@ -514,16 +518,28 @@ footer {
             }
         }
     }
-    .form-control {
+    input {
+        width: 100%;
+    }
+    input, textarea {
         background-color: #272727;
         border-radius: 2rem;
-        border: 2px solid #8595a2;
-        padding: 13px 30px 7px;
+        border: 2px solid #353535;
+        padding: 5% 3% 3% 13%;
         color: #fff;
+        transition: all 300ms;
+    }
+    input:hover, textarea:hover {
+        color: #FFFFFF;
+        background-color: #252525;
+        border-color: #8799A3;
     }
     .col-12 {
-        .form-control {
+        textarea {
             height: 150px;
+            width: 100%;
+            border-radius: 1.5rem!important;
+            padding: 3% 6%;
         }
     }
     .btn-primary {
