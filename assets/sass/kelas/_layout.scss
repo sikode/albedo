@@ -408,13 +408,36 @@ div#coltwo {
     
     .colke3 {
         overflow: hidden;
-        div {
+        .lebar-img {
             overflow: hidden;
             max-height: 250px;
             img {
                 height: 260px;
                 width: 255px;
                 object-fit: cover;
+                position: relative;
+            }
+            @media screen and (min-width: 991px) {
+                img {
+                    width: 330px;
+                }
+            }
+        }
+        .colke3-1 {
+            position: absolute;
+            top: 9%;
+            left: 19%;
+            width: 63%;
+            img {
+                width: 40px!important;
+            }
+        }
+        #colke3-01 {
+            text-align: center;
+            color: $default-color;
+            top: 12%;
+            .date {
+                color: $default-color;
             }
         }
     }
@@ -422,12 +445,30 @@ div#coltwo {
         background-color: #E91E62;
         span {
             width: 66%;
-            font-family: $font-content;
-            font-weight: 800;
+            font-family: $font-heading;
+            font-weight: 700;
+            font-size: 15px;
             color: $default-color;
             text-transform: uppercase;
             text-align: center;
         }
+    }
+    .colke4 {
+        width: 79%;
+    }
+    .date {
+        font-weight: 700;
+        font-family: $font-heading;
+        color: #BBC7CD;
+    }
+    h5 {
+        font-weight: 900;
+        font-family: $font-heading;
+        font-size: 23px;
+        line-height: 2rem;
+    }
+    p.silver {
+        color: #636363;
     }
 }
 

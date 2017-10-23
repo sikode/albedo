@@ -300,21 +300,52 @@ div#coltwo .col-lg-12 > img {
       width: 57%; }
   #blog .colke3 {
     overflow: hidden; }
-    #blog .colke3 div {
+    #blog .colke3 .lebar-img {
       overflow: hidden;
       max-height: 250px; }
-      #blog .colke3 div img {
+      #blog .colke3 .lebar-img img {
         height: 260px;
         width: 255px;
-        object-fit: cover; }
+        object-fit: cover;
+        position: relative; }
+      @media screen and (min-width: 991px) {
+        #blog .colke3 .lebar-img img {
+          width: 330px; } }
+    #blog .colke3 .colke3-1 {
+      position: absolute;
+      top: 9%;
+      left: 19%;
+      width: 63%; }
+      #blog .colke3 .colke3-1 img {
+        width: 40px !important; }
+    #blog .colke3 #colke3-01 {
+      text-align: center;
+      color: #FFFFFF;
+      top: 12%; }
+      #blog .colke3 #colke3-01 .date {
+        color: #FFFFFF; }
   #blog .colke5 {
     background-color: #E91E62; }
     #blog .colke5 span {
       width: 66%;
-      font-family: "Cambay", sans-serif;
-      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
       color: #FFFFFF;
       text-transform: uppercase;
       text-align: center; }
+  #blog .colke4 {
+    width: 79%; }
+  #blog .date {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #BBC7CD; }
+  #blog h5 {
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    line-height: 2rem; }
+  #blog p.silver {
+    color: #636363; }
 
 /*# sourceMappingURL=style.css.map */
